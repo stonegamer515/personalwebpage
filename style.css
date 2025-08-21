@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Tahoma', sans-serif;
+    background-attachment: fixed;
+    flex-direction: column;
+    min-height: 100;
+    margin: 0;
+    cursor: default;
+}
