@@ -14,4 +14,12 @@ body {
     margin: 0;
     cursor: default;
 }
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  background: (0,0,0,.5); /* dim strength */
+  pointer-events: none;       /* clicks go through */
+  /* no z-index needed; it's above the background by default */
+}
 
