@@ -1,1 +1,11 @@
-
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    background-attachment: fixed;
+    flex-direction: column;
+    min-height: 100;
+    margin: 0;
+    cursor: default;
+}
